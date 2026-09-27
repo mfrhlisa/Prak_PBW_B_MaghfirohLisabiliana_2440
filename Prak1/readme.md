@@ -54,22 +54,33 @@ Telah dilakukan beberapa modifikasi bermakna pada program dasar untuk meningkatk
     *Penjelasan:* Contoh implementasi UI dinamis. Atribut `class` pada HTML disisipi tag cetak PHP yang akan mengeksekusi fungsi `warnabadge()`, sehingga nama *class* dan warna elemen berubah otomatis sesuai hasil evaluasi IPK.
 
 ## 4. Screenshot Modifikasi
-**1. Biodata (Sebelum Modifikasi)**  
+
+### 1. Biodata (Sebelum Modifikasi)
+
 ![Biodata Sebelum](gambar/biodata_sebelum.jpeg)
 
+<br>
+
 ---
 
-**2. Biodata (Sesudah Modifikasi)**
+### 2. Biodata (Sesudah Modifikasi)
+
 ![Biodata Sesudah](gambar/biodata_setelah.jpeg)
 
+<br>
+
 ---
 
-**3. Kalkulator (Sebelum Modifikasi)**
+### 3. Kalkulator (Sebelum Modifikasi)
+
 ![Kalkulator Sebelum](gambar/kalkulator_sebelum.jpeg)
 
+<br>
+
 ---
 
-**4. Kalkulator (Sesudah Modifikasi)**
+### 4. Kalkulator (Sesudah Modifikasi)
+
 ![Kalkulator Sesudah](gambar/kalkulator_setelah.jpeg)
 
 ## 5. Analisis Error & Troubleshooting
