@@ -8,7 +8,7 @@
     <p>Nama: Siti. </p>
     <p>Email: siti@gmail.com </p>
     <p>No. Telepon: 086456236723 </p>
-    <a href="">Social Media Kami</a>
+    <a href="https://www.instagram.com/belvahndryn?stkn=MXZ5cWFmam1lcHQ4eA==">Social Media Kami</a><br>
     <a href="/">Kembali ke Halaman Utama</a>
 </body>
 </html>
