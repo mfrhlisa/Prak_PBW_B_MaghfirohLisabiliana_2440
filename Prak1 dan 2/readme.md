@@ -1,4 +1,4 @@
-# Laporan Tugas Praktikum 1 dan 2 - Praktikum Pemrograman Web 
+# Laporan Tugas Praktikum 1 dan 2 - PHP Dasar: Program Biodata (Array Asosiatif) dan Kalkulator Sederhana
 
 **Nama:** Maghfiroh Lisabiliana  
 **NIM:** 4524210040   
