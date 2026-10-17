@@ -24,9 +24,9 @@
             </a>
 
             <div class="flex items-center gap-5 text-sm font-medium">
-                <a href="/" class="hidden sm:block text-pink-700 font-semibold">Beranda</a>
-                <a href="#tentang" class="hidden sm:block text-slate-600 hover:text-pink-700">Tentang Saya</a>
-                <a href="#kontak" class="hidden sm:block text-slate-600 hover:text-pink-700">Kontak</a>
+                <a href="/" class="nav-item hidden sm:block text-pink-700 font-semibold">Beranda</a>
+                <a href="#tentang" class="nav-item hidden sm:block text-slate-600 hover:text-pink-700">Tentang Saya</a>
+                <a href="#kontak" class="nav-item hidden sm:block text-slate-600 hover:text-pink-700">Kontak</a>
 
                 @auth
                     <a href="{{ route('dashboard') }}"
@@ -123,5 +123,23 @@
         </div>
     </footer>
 
+    {{-- ===== SCRIPT EFEK KLIK NAVBAR ===== --}}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navItems = document.querySelectorAll('.nav-item');
+
+            navItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    navItems.forEach(nav => {
+                        nav.classList.remove('text-pink-700', 'font-semibold');
+                        nav.classList.add('text-slate-600');
+                    });
+
+                    this.classList.remove('text-slate-600');
+                    this.classList.add('text-pink-700', 'font-semibold');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
