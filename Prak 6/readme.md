@@ -1,4 +1,4 @@
-# Laporan Tugas Praktikum 6 - Implementasi Dasar
+# Laporan Tugas Praktikum 6 
 
 **Nama:** Maghfiroh Lisabiliana  
 **NIM:** 4524210040  
